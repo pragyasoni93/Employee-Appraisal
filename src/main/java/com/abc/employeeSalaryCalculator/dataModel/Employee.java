@@ -1,7 +1,10 @@
-package dev.soni.dataModel;
+package com.abc.employeeSalaryCalculator.dataModel;
 
 import lombok.Data;
 
+/**
+ *
+ */
 @Data
 public class Employee {
     private int id;
@@ -18,6 +21,10 @@ public class Employee {
         Salary = salary;
     }
 
+    /**
+     * AutoIncrement Employee Id
+     * @return
+     */
     public static int getAutoIdCounter() {
         idCounter++;
         return idCounter;

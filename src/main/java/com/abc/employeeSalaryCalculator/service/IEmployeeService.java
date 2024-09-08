@@ -1,9 +1,12 @@
-package dev.soni.service;
+package com.abc.employeeSalaryCalculator.service;
 
-import dev.soni.dataModel.Employee;
+import com.abc.employeeSalaryCalculator.dataModel.Employee;
 
 import java.util.List;
 
+/**
+ * Inteface for EmployeeService class to add employee, get all employees and apply salary appraisals
+ */
 public interface IEmployeeService {
 
     boolean addEmployee(Employee employee);
