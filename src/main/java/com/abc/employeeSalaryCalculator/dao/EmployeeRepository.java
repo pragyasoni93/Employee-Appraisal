@@ -1,10 +1,13 @@
-package dev.soni.dao;
+package com.abc.employeeSalaryCalculator.dao;
 
-import dev.soni.dataModel.Employee;
+import com.abc.employeeSalaryCalculator.dataModel.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ */
 public class EmployeeRepository {
     private List<Employee> employeeDB = new ArrayList<>();
 

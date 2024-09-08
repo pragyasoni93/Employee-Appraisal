@@ -1,6 +1,6 @@
-package dev.soni;
+package com.abc.employeeSalaryCalculator;
 
-import dev.soni.client.EmployeeAppraisalCalculator;
+import com.abc.employeeSalaryCalculator.client.EmployeeAppraisalCalculator;
 
 public class Main {
     public static void main(String[] args) {
